@@ -7,7 +7,7 @@ pipeline {
         	stage('compile,test and package') {
         		steps {
 				dir(project_path) {
-            				sh 'mvn clean package'
+            				bat 'mvn clean package'
 				}
             		}
         	}
