@@ -32,7 +32,7 @@ import org.springframework.web.client.RestTemplate;
  *
  * @author Andy Wilkinson
  */
-public class RestTemplateProxyCustomizationExample1 {
+public class RestTemplateProxyCustomizationExample {
 
 	/**
 	 * A {@link RestTemplateCustomizer} that applies an HttpComponents-based request
